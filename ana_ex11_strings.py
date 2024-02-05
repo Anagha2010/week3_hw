@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 Belgium = 'Belgium,10445852,Brussels,737966,Europe,1830,Euro,Catholicism,Dutch,French,German'
-# belgium_length = len(Belgium)
+belgium_length = len(Belgium)
 # print('Belgium string length =', belgium_length)
 # dash_list = ['-',]
 # for number in range(1, belgium_length):
@@ -11,8 +11,6 @@ dash_string = ''
 for i in range(0, len(Belgium)):
     dash_string += '-'
 print(dash_string)
-# new_belgium = Belgium.replace(',', ':')
-# print(new_belgium)
 print('\n', Belgium.replace(',', ':'))
 # belgium_list is being created and assigned values after splitting the string Belgium
 # wherever there was a comma
